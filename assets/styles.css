@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+  --btn-bg: #050d26;
+  --bg-azul-10: #e9eeff;
+  --bg-white: #fff;
+  --bg-electric: #f0fbff;
+  --nav-bg: #0f1525;
+
+--text-gray: #adb9c7;
+  --text-white: #f3f4f6;
+
+   --fire: #ff6d00;
+  --electric: #64d3ff;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+      background: var(--secondary) ;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      height: 65px;
+      padding: 0% 30% 0% 30%;
+      position: fixed;
+      top: 0;
+}
+.logo{
+    height: 70%;
+    border-radius: 10%;
+    position: relative;
+    right: 400px
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.navbar{
+    gap: 150px;
+}
+
+.navbar-list{
+    gap: 90px;
+}
+
+.navbar-list a {
+    color: var(--text-gray);
+    font-size: 14px;
+}
+ .navbar-list li:first-child > a {
+    color: var(--text-white);
+    font-weight: 600;
+}
+
+.carrito{
+    border: 1px solid var(--bg-electric);
+    padding: 12px 18px;
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 36px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+}
