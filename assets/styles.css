@@ -31,16 +31,19 @@ header{
       width: 100%;
       display: flex;
       justify-content: space-between;
-      height: 65px;
+      height: 55px;
       padding: 0% 30% 0% 30%;
       position: fixed;
       top: 0;
+      
+     
 }
 .logo{
-    height: 70%;
+    height: 80%;
     border-radius: 10%;
-    position: relative;
-    right: 400px
+    position: absolute;
+    left: 10px
+    
 }
 
 .navbar,
@@ -60,7 +63,7 @@ header{
 
 .navbar-list a {
     color: var(--text-gray);
-    font-size: 14px;
+    font-size: 15px;
 }
  .navbar-list li:first-child > a {
     color: var(--text-white);
@@ -76,5 +79,5 @@ header{
     font-weight: 600;
     cursor: pointer;
     position: relative;
-    left: 250px;
+    left: 230px;
 }
