@@ -22,27 +22,30 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: poppins , sans-serif;
     text-decoration: none;
     list-style-type: none;
 }
 
 header{
-      background: var(--secondary) ;
+    background-color:var(--secondary);
       width: 100%;
       display: flex;
       justify-content: space-between;
-      height: 55px;
+      height: 50px;
       padding: 0% 30% 0% 30%;
-      position: fixed;
+      position: sticky;
       top: 0;
       
      
 }
 .logo{
-    height: 80%;
-    border-radius: 10%;
-    position: absolute;
-    left: 10px
+    height: 100%;
+   border-radius: 30%;
+   right: 73%;
+  position: relative;
+
+
     
 }
 
@@ -54,16 +57,16 @@ header{
 }
 
 .navbar{
-    gap: 150px;
+    gap: 100px;
 }
 
 .navbar-list{
-    gap: 90px;
+    gap: 20px;
 }
 
 .navbar-list a {
-    color: var(--text-gray);
-    font-size: 15px;
+    color: gainsboro;
+    font-size: 18px;
 }
  .navbar-list li:first-child > a {
     color: var(--text-white);
@@ -72,12 +75,176 @@ header{
 
 .carrito{
     border: 1px solid var(--bg-electric);
+    background-color: #f3f4f6;
     padding: 12px 18px;
-    margin-top: 3px;
+    margin-top: 10px;
     border-radius: 10px;
     height: 36px;
     font-weight: 600;
     cursor: pointer;
     position: relative;
-    left: 230px;
+    left: 60%;
 }
+main{
+    background-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+#hero{
+margin-top: 65px;
+padding: 70px 0;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   width: 50%;
+}
+.hero-info h1{
+    font-size: 55px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    background: linear-gradient(to top,blue,white );
+    color: transparent;
+    background-clip:text ;
+    -webkit-background-clip: text;
+
+    
+} 
+.hero-info p{
+font-size: 14px;
+width: 70%;
+
+} 
+.hero-info p > span {
+    font-weight: 800;
+    color: #02050e;
+}
+.hero-info p{
+    font-weight: 600;
+    text-align: var(--text-white);
+}
+.hero-info a {
+    color: #1e50ff;
+    background-color:var(--nav-bg) ;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.hero-card{
+    width: 250px;
+    background: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+}
+.hero-card img{
+    border-radius: 10px;
+    justify-content: center;
+   
+    
+}
+.hero-ale-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-ale-top{
+    gap: 10px;
+}
+.hero-ale-top h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero-ale-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hero-ale-button p{
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+}
+#info{
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+#info{
+padding: 70px 0;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 40px;
+}
+
+#info h2 {
+    font-size: 40px;
+    font-weight: 800;
+     background: linear-gradient(to top,blue,white );
+    color: transparent;
+    background-clip:text ;
+    -webkit-background-clip: text;
+}
+
+    
+
+
+.info-cards-container{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+gap: 80px;
+
+}
+.info-card{
+    width: 200px;
+    height: 400px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 10px;
+    border-radius: 10px;
+   }
+
+   .info-card img{
+width: 250px;
+border-radius: 10px;
+cursor: pointer;
+   }
+
+   .info-card p {
+    font-size: 12px;
+    color: var(--btn-bg);
+    font-weight: 600;
+   }
+
+
+
+
